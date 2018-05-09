@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app="beerapp">
+<head>
+<title>RandomBeer App</title>
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<style>
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #e6e2d3;
+}
+
+#info {
+	margin-top: 100px;
+	background: #c4b7a6;
+}
+</style>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+<script src="beercontroller.js"></script>
+</head>
+
+<body ng-controller="BeerController">
+	<div class="container">
+		<div>
+			<div class="col-lg-12">
+				<div class="col-lg-8 col-lg-offset-4">
+					<h1>The Random Beer App</h1>
+
+					<button class="btn btn-primary pull-right" ng-click="randomBeer()">Show
+						Another Beer</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="row col-lg-12" id="info">
+			<div class="col-lg-2 col-lg-offset-4">
+				<img itemprop="image" src={{beer.imagelink}}>
+			</div>
+			<div class="col-lg-6">
+				<h4>The Name is {{beer.name}}</h4>
+				<h4>Description is {{beer.description}}</h4>
+				<h4>The Alcohol Percentage is {{beer.percentage}}%</h4>
+				<h4>The Brewery Location is {{beer.location}}</h4>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+insert into beer(ID, Name, PERCENTAGE, LOCATION, DESCRIPTION, IMAGELINK) values(1,'Franziskaner Hefe ', 5, 'German', 'a time honoured tradition', 'https://www.obrienswine.ie/media/catalog/product/cache/1/small_image/60x220/9df78eab33525d08d6e5fb8d27136e95/2/1/21654-Franziskaner-Hefe-50cl-Btl_2.png');
+
+insert into beer(ID, Name, PERCENTAGE, LOCATION, DESCRIPTION, IMAGELINK) values(2,'Barefoot Bohemian ', 8, 'Ireland', 'subtle biscuit malt base balance', 'https://www.obrienswine.ie/media/catalog/product/cache/1/small_image/60x220/9df78eab33525d08d6e5fb8d27136e95/1/2/12b045.png');
+
+insert into beer(ID, Name, PERCENTAGE, LOCATION, DESCRIPTION, IMAGELINK) values(3,'Augustiner Helles ', 7, 'German', 'Mildly spicy hop aroma', 'https://www.obrienswine.ie/media/catalog/product/cache/1/small_image/60x220/9df78eab33525d08d6e5fb8d27136e95/1/6/16B084-Bitburger-Helles-Lager-50cl-Bottle_1.png');
